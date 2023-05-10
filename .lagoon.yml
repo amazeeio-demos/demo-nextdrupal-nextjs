@@ -1,2 +1,9 @@
 docker-compose-yaml: docker-compose.yml
 project: demo-nextdrupal-nextjs
+
+environments:
+  main:
+    routes:
+      - "next.demo.composetheweb.com":
+        tls-acme: true
+        insecure: Redirect
