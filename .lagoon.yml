@@ -5,6 +5,6 @@ environments:
   main:
     routes:
       - node:
-        - "node.demo.composetheweb.com":
+        - "next.demo.composetheweb.com":
             tls-acme: true
             insecure: Redirect
