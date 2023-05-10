@@ -4,6 +4,7 @@ project: demo-nextdrupal-nextjs
 environments:
   main:
     routes:
-      - "next.demo.composetheweb.com":
-        tls-acme: true
-        insecure: Redirect
+      - node:
+        - "node.demo.composetheweb.com":
+            tls-acme: true
+            insecure: Redirect
