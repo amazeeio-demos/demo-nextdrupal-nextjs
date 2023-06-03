@@ -11,3 +11,8 @@
 #nprogress .bar {
   background: #da3c13;
 }
+
+.aiframe {
+	width: 100%;
+	height: 500px;
+}
