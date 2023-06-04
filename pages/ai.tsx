@@ -19,14 +19,6 @@ export default function ContactPage({ menus, blocks }: ContactPageProps) {
       menus={menus}
       blocks={blocks}
     >
-      <PageHeader
-        heading={t("website-ai")}
-        breadcrumbs={[
-          {
-            title: t("AI"),
-          },
-        ]}
-      />
       <div className="container">
 	<iframe src="https://ai.demo.composetheweb.com/" className="aiframe" scrolling="no" />
       </div>
