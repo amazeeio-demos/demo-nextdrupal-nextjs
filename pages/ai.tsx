@@ -20,7 +20,7 @@ export default function ContactPage({ menus, blocks }: ContactPageProps) {
       blocks={blocks}
     >
       <div className="container">
-	<iframe src="https://ai.demo.composetheweb.com/" className="aiframe" scrolling="no" />
+	<iframe src="https://ai.demo.composetheweb.com/" className="aiframe" scrolling="yes" />
       </div>
     </Layout>
   )
